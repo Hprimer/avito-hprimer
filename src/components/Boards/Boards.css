@@ -1,0 +1,17 @@
+.boards-list{
+
+}
+.boards-head{
+  text-align: center ;
+}
+
+.board-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  display: flex  ;
+  justify-content: space-between;
+  align-items: center;
+}
