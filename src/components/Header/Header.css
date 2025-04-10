@@ -1,6 +1,7 @@
 .header{
     background-color: rgb(102, 227, 102);
-    /* border-bottom: solid; */
+    position: sticky;
+    top:0;
 }
 
 .create-task_btn{

@@ -1,13 +1,11 @@
-.boards-list{
 
-}
 .boards-head{
   text-align: center ;
 }
 
 .board-item {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 5px 25px;
   list-style-type: none;
   border-radius: 18px;
   margin-bottom: 20px;
