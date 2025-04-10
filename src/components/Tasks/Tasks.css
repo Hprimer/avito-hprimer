@@ -1,0 +1,22 @@
+.task-head{
+    text-align: center;
+}
+.funkcional-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.search-task, .filter-task{
+    width: 175px;
+    border: solid 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.input-search-task{
+    width: 100%; 
+    height: 100%; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
