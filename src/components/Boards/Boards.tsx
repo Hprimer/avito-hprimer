@@ -38,7 +38,8 @@ function Boards() {
         {boards.map(board => (
             <li key={board.id} className="board-item">
             <h2>{board.name}</h2>
-            <NavLink to={`/board/${board.id}`} state={{ board }}>Перейти к доске</NavLink>
+            {/* <NavLink to={`/avito-hprimer/board/${board.id}`} state={{ board }}>Перейти к доске</NavLink> */}
+            <NavLink to={`/avito-hprimer/boards/${board.id}`} state={{ board }}>Перейти к доске</NavLink>
             
             </li>
         ))}        

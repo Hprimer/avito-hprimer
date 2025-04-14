@@ -2,6 +2,7 @@
   "name": "avito-hprimer",
   "version": "0.1.0",
   "proxy": "http://localhost:8080",
+  "homepage": "avito-hprimer",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

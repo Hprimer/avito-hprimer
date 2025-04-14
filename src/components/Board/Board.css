@@ -29,9 +29,6 @@
     color: #666;
     font-size: 0.9em;
 }
-.todo .status-header {
-    border-color: #ffd700;
-}
 
 .in-progress .status-header {
     border-color: #1e90ff;
@@ -46,8 +43,21 @@
     padding: 12px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
 
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.task-card:hover{
+    transform: scale(1.05);
+}
+.todo .status-header {
+    border-color: #ffd700;
+}
+.btn-block_in-board{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
 .task-title {
     margin: 0 0 8px 0;
     font-size: 1em;

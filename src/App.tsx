@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Boards from './components/Boards/Boards';
 import Header from './components/Header/Header';
@@ -14,9 +14,10 @@ function App() {
         <Header/>
 
         <Routes>
-          <Route path='/boards' element={<Boards/>}/>
-          <Route path='/board/:id' element={<Board/>}/>
-          <Route path='/issues' element={<Tasks/>}/>
+          <Route path='/avito-hprimer' element={<Navigate to="/avito-hprimer/boards"/>}/>
+          <Route path='/avito-hprimer/boards' element={<Boards/>}/>
+          <Route path='/avito-hprimer/boards/:id' element={<Board/>}/>
+          <Route path='/avito-hprimer/issues' element={<Tasks/>}/>
 
         </Routes>
       </BrowserRouter>

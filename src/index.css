@@ -6,20 +6,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 a{
   text-decoration: none;
   color: inherit;
+  transition: transform .5s ease;
+
+}
+a:hover{
+  transform: scale(1.05);
 }
 
-
-:root {
-  --bs-gutter-x: 1.5rem; 
+.create-task_btn{
+  padding: 15px;
+  border: solid;
+  /* max-width: 300px; */
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #66e366;
+  text-align: center;
+  transition: transform .5s ease;
 }
-
+.create-task_btn:hover{
+  transform: scale(1.05);
+}
 .container {
-  /* width: 100%; */
-  padding-right: calc(var(--bs-gutter-x) * .5); 
-  padding-left: calc(var(--bs-gutter-x) * .5); 
+  padding-right: calc(var(1.5rem) * .5); 
+  padding-left: calc(var(1.5rem) * .5); 
   margin-right: auto;
   margin-left: auto;
 }
